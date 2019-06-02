@@ -2,429 +2,300 @@ FROM ubuntu:14.04
 
 RUN apt-get update && apt-get install mercurial -y
 
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools
-
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
+RUN hg clone https://lz_hust@toolshed.g2.bx.psu.edu/repos/lz_hust/gatktools && rm -rf gatktools
